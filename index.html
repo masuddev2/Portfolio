@@ -10,7 +10,7 @@
   <script src="https://kit.fontawesome.com/09244ed6de.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs->
 
   <div class="topbar">
     <div class="highlight">
@@ -26,30 +26,62 @@
   </div>
 
   <!-- navbar -->
-
   <div class="navbar">
-    <div><h1>logo</h1></div>
-    <ul>
-      <li class="active"><a href="#Home">Home</a></li>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Services">Services</a></li>
-      <li><a href="#Portfolio">Portfolio</a></li>
-      <li  class=""><a href="#Contact">Contact</a></li>
-    </ul>
+    <div class="container d-flex justify-content-between">
+      <div>
+        <h1 style="color: var(--white)">logo</h1>
+      </div>
+      <ul>
+        <li class="active"><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li class=""><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
   </div>
   <!-- hero section -->
   <section id="Home">
-    <!-- topbar -->
-
-
-    <!-- herobody -->
-    <div class="herobody">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-6 col-s-10">
+          <div class="title">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus repellendus necessitatibus
+              distinctio
+              sapiente, voluptas saepe explicabo eum expedita blanditiis, corporis ipsam ut mollitia quibusdam quis
+              perspiciatis corrupti totam voluptatum.</p>
+          </div>
+        </div>
+        <div class="col-6 col-s-10">
+          <div class="home-image">
+            <img src="./assets/images/18824957.jpg" alt="bg-image">
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <section id="About"><h1>About</h1></section>
-  <section id="Services"><h1>Services</h1></section>
-  <section id="Portfolio"><h1>Portfolio</h1></section>
-  <section id="Contact"><h1>Contact</h1></section>
+
+  <section id="About">
+    <div class="container">
+      <h1>About</h1>
+    </div>
+  </section>
+  <section id="Services">
+    <div class="container">
+      <h1>Services</h1>
+    </div>
+  </section>
+  <section id="Portfolio">
+    <div class="container">
+      <h1>Portfolio</h1>
+    </div>
+  </section>
+  <section id="Contact">
+    <div class="container">
+      <h1>Contact</h1>
+    </div>
+  </section>
   <script src="./assets/js/index.js"></script>
 </body>
 
